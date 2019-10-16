@@ -1,12 +1,13 @@
 $(document).ready(function(){
      
+    var clientId = "964994508606-21btpvnt9p889mbjlssaffek5giff23a.apps.googleusercontent.com";
     // client id of the project
 
-   //  var clientId = '{{client_id}}';
+   //  var clientId = '{{964994508606-21btpvnt9p889mbjlssaffek5giff23a.apps.googleusercontent.com}}';
 
     // redirect_uri of the project
 
-    var redirect_uri = "https://torrent-2-gdrive.herokuapp.com/downloader";
+    var redirect_uri = "https://wutaboutton.herokuapp.com/downloader";
    // var redirect_uri = "http://localhost:3000/downloader"
 
     // scope of the project
@@ -15,7 +16,7 @@ $(document).ready(function(){
 
     // the url to which the user is redirected to
 
-    var url = "";
+    var url = "https://wutaboutton.herokuapp.com";
 
 
     // this is event click listener for the button
